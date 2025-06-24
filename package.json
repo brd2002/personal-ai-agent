@@ -1,0 +1,18 @@
+{
+  "name": "first-agent",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.js",
+    "dev": "node --env-file=.env index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.25.0"
+  }
+}
